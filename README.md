@@ -16,7 +16,7 @@ The project implements VLAN segmentation, Inter-VLAN Routing, DHCP, ACL, and SSH
 
 ## 🖥️ Network Topology
 
-*Topology image will be added later.*
+![Enterprise Network Topology](images/topology.png)
 
 ---
 
