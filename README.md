@@ -1,5 +1,8 @@
 # Enterprise Network - Cisco Packet Tracer
-
+![Cisco](https://img.shields.io/badge/Cisco-IOS-blue)
+![CCNA](https://img.shields.io/badge/CCNA-Lab-success)
+![Packet Tracer](https://img.shields.io/badge/Packet%20Tracer-8.x-orange)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ## 📌 Project Overview
 
 This project demonstrates the implementation of a small enterprise network using Cisco Packet Tracer.
@@ -61,6 +64,25 @@ The project implements VLAN segmentation, Inter-VLAN Routing, DHCP, ACL, and SSH
 - Screenshots
 
 ---
+## 📁 Project Structure
+
+```text
+Enterprise-Network-CCNA/
+│
+├── Enterprise_Network.pkt
+├── README.md
+├── configs/
+│   ├── router_config.txt
+│   └── switch_config.txt
+├── images/
+│   ├── topology.png
+│   ├── vlan.png
+│   ├── trunk.png
+│   ├── interfaces.png
+│   ├── dhcp.png
+│   └── acl_test.png
+└── docs/
+```
 
 ## 🛠 Skills Demonstrated
 
@@ -72,6 +94,18 @@ The project implements VLAN segmentation, Inter-VLAN Routing, DHCP, ACL, and SSH
 - Cisco IOS CLI
 
 ---
+## ✅ Verification
+
+The following tests were successfully completed:
+
+- VLAN segmentation verified
+- Trunk link operational
+- Inter-VLAN routing functional
+- DHCP assigned IP addresses automatically
+- ACL blocked HR → Finance traffic
+- ACL blocked Finance → HR traffic
+- IT department has unrestricted access
+- SSH remote access configured
 
 ## 👨‍💻 Author
 
